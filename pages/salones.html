@@ -7,20 +7,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Salones</title>
   <link rel="shortcut icon" href="../img/logo-cirilo.png" type="image/x-icon">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- CSS -->
   <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
 <body class="bodyPadreGridSalones">
   <header>
-    <img id="logoPrincipal" src="../img/logo-cirilo.png" alt="Logo Cirilo" />
-    <nav class="menuBtn">
-      <ul>
-        <li><a href="../index.html">Nosotros</a></li>
-        <li><a href="salones.html">Salones</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="gastronomia.html">Gastronomía</a></li>
-        <li><a id="btnContacto" href="contacto.html">Contacto</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img id="logoPrincipal" src="../img/logo-cirilo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="salones.html">Salones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gastronomia.html">Gastronomía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="btnContacto" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
@@ -28,111 +51,111 @@
     <h1 class="tituloPrincipalSinFlex tituloSalones">Nuestros Salones</h1>
 
     <section class="bordeSalones">
-        <h2 class="subtitulosVerdes nombresSalones">Colegiales:</h2>
-        <div class="salonesHijo salonUno">
-          <article class="listaSalones">
-            <ul>
-              <li>Mega pelotero de 3 niveles</li>
-              <li>Plaza blanda</li>
-              <li>Salón de animación con disco</li>
-              <li>Espacio de arte</li>
-              <li>Sector Barbie</li>
-              <li>Cabina de fotos insantáneas</li>
-              <li>Cancha de futbol/basket/multideporte con césped sintético</li>
-              <li>Servicio de emergencia</li>
-              <li>Refrigeración/Calefacción</li>
-              <li>Proyector con pantalla gigante</li>
-              <li>Metegol</li>
-              <li>Habitación GCBA</li>
-              <li>Juegos habilitados bajo normas IRAM</li>
-            </ul>
-          </article>
-          <aside class="imgSalones">
-            <img src="../img/salones/thomas/comedor.jpeg" alt="Comedor de niños">
-            <img src="../img/salones/thomas/disco.jpeg" alt="Disco para bailar">
-            <img src="../img/salones/thomas/mega-laberinto.jpeg" alt="Mega-Laberinto">
-            <img src="../img/salones/thomas/salon-2.jpeg" alt="Mesas para adultos">
-          </aside>
-        </div>
-        <div class="maps">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.0201168337126!2d-58.46165828639569!3d-34.57836783511888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5907d2b0dc1%3A0x4b102d0e3f188ff4!2sSalon%20de%20Fiestas%20Cirilo!5e0!3m2!1ses!2sar!4v1660069704586!5m2!1ses!2sar"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </section>
+      <h2 class="subtitulosVerdes nombresSalones">Colegiales:</h2>
+      <div class="salonesHijo salonUno">
+        <article class="listaSalones">
+          <ul>
+            <li>Mega pelotero de 3 niveles</li>
+            <li>Plaza blanda</li>
+            <li>Salón de animación con disco</li>
+            <li>Espacio de arte</li>
+            <li>Sector Barbie</li>
+            <li>Cabina de fotos insantáneas</li>
+            <li>Cancha de futbol/basket/multideporte con césped sintético</li>
+            <li>Servicio de emergencia</li>
+            <li>Refrigeración/Calefacción</li>
+            <li>Proyector con pantalla gigante</li>
+            <li>Metegol</li>
+            <li>Habitación GCBA</li>
+            <li>Juegos habilitados bajo normas IRAM</li>
+          </ul>
+        </article>
+        <aside class="imgSalones">
+          <img src="../img/salones/thomas/comedor.jpeg" alt="Comedor de niños">
+          <img src="../img/salones/thomas/disco.jpeg" alt="Disco para bailar">
+          <img src="../img/salones/thomas/mega-laberinto.jpeg" alt="Mega-Laberinto">
+          <img src="../img/salones/thomas/salon-2.jpeg" alt="Mesas para adultos">
+        </aside>
+      </div>
+      <div class="maps">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.0201168337126!2d-58.46165828639569!3d-34.57836783511888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5907d2b0dc1%3A0x4b102d0e3f188ff4!2sSalon%20de%20Fiestas%20Cirilo!5e0!3m2!1ses!2sar!4v1660069704586!5m2!1ses!2sar"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
 
 
-      <section class="bordeSalones">
-        <h2 class="subtitulosVerdes nombresSalones">Boedo:</h2>
-        <div class="salonesHijo salonDos">
-          <article class="listaSalones">
-            <ul>
-              <li>Mega pelotero de 3 niveles</li>
-              <li>Plaza blanda</li>
-              <li>Salón de animación con disco</li>
-              <li>Espacio de arte</li>
-              <li>Sector Barbie</li>
-              <li>Cabina de fotos insantáneas</li>
-              <li>Cancha de futbol/basket/multideporte con césped sintético</li>
-              <li>Servicio de emergencia</li>
-              <li>Refrigeración/Calefacción</li>
-              <li>Proyector con pantalla gigante</li>
-              <li>Metegol</li>
-              <li>Habitación GCBA</li>
-              <li>Juegos habilitados bajo normas IRAM</li>
-            </ul>
-          </article>
-          <aside class="imgSalones">
-            <img src="../img/salones/boedo/boedo-1.jpg" alt="Plaza blanda">
-            <img src="../img/salones/boedo/boedo-5.jpg" alt="Maquina de juegos, disco, comedor niños e inflable">
-            <img src="../img/salones/boedo/boedo-7.jpg" alt="Laberinto">
-            <img src="../img/salones/boedo/boedo-9.jpg" alt="Mesas adultos y sector torta">
-          </aside>
-        </div>
-        <div class="maps">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1003136929507!2d-58.42365171621216!3d-34.62690521092245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbd2c11e6d55%3A0x4bb9b0f49c5a341!2sSal%C3%B3n%20de%20Fiestas%20Cirilo!5e0!3m2!1ses!2sar!4v1660069755452!5m2!1ses!2sar"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </section>
+    <section class="bordeSalones">
+      <h2 class="subtitulosVerdes nombresSalones">Boedo:</h2>
+      <div class="salonesHijo salonDos">
+        <article class="listaSalones">
+          <ul>
+            <li>Mega pelotero de 3 niveles</li>
+            <li>Plaza blanda</li>
+            <li>Salón de animación con disco</li>
+            <li>Espacio de arte</li>
+            <li>Sector Barbie</li>
+            <li>Cabina de fotos insantáneas</li>
+            <li>Cancha de futbol/basket/multideporte con césped sintético</li>
+            <li>Servicio de emergencia</li>
+            <li>Refrigeración/Calefacción</li>
+            <li>Proyector con pantalla gigante</li>
+            <li>Metegol</li>
+            <li>Habitación GCBA</li>
+            <li>Juegos habilitados bajo normas IRAM</li>
+          </ul>
+        </article>
+        <aside class="imgSalones">
+          <img src="../img/salones/boedo/boedo-1.jpg" alt="Plaza blanda">
+          <img src="../img/salones/boedo/boedo-5.jpg" alt="Maquina de juegos, disco, comedor niños e inflable">
+          <img src="../img/salones/boedo/boedo-7.jpg" alt="Laberinto">
+          <img src="../img/salones/boedo/boedo-9.jpg" alt="Mesas adultos y sector torta">
+        </aside>
+      </div>
+      <div class="maps">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.1003136929507!2d-58.42365171621216!3d-34.62690521092245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccbd2c11e6d55%3A0x4bb9b0f49c5a341!2sSal%C3%B3n%20de%20Fiestas%20Cirilo!5e0!3m2!1ses!2sar!4v1660069755452!5m2!1ses!2sar"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
 
-      <section class="bordeSalones">
-        <h2 class="subtitulosVerdes nombresSalones">Campichuelo:</h2>
-        <div class="salonesHijo salonTres">
-          <article class="listaSalones">
-            <ul>
-              <li>Mega pelotero de 3 niveles</li>
-              <li>Plaza blanda</li>
-              <li>Salón de animación con disco</li>
-              <li>Espacio de arte</li>
-              <li>Sector Barbie</li>
-              <li>Cabina de fotos insantáneas</li>
-              <li>Cancha de futbol/basket/multideporte con césped sintético</li>
-              <li>Servicio de emergencia</li>
-              <li>Refrigeración/Calefacción</li>
-              <li>Proyector con pantalla gigante</li>
-              <li>Metegol</li>
-              <li>Habitación GCBA</li>
-              <li>Juegos habilitados bajo normas IRAM</li>
-            </ul>
-          </article>
-          <aside class="imgSalones">
-            <img src="../img/salones/campi/cirilo-campichuelo-4.jpg" alt="Plaza blanda">
-            <img src="../img/salones/campi/cirilo-campichuelo-6.jpg" alt="Mesas niños y adultos, sector torta y baile">
-            <img src="../img/salones/campi/cirilo-salon-maquillaje-disfraces-metegol.jpg"
-              alt="Espacio de belleza y metegol">
-            <img src="../img/salones/campi/cirilo-salon-tobogan-gigante.jpg" alt="Mega-Laberinto">
-          </aside>
-        </div>
-        <div class="maps">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.713648852594!2d-58.437489906614395!3d-34.611401768087795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca6a3bc07953%3A0xa896429f8809c62c!2sSal%C3%B3n%20de%20Fiestas%20Cirilo!5e0!3m2!1ses!2sar!4v1660070061652!5m2!1ses!2sar"
-            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </section>
+    <section class="bordeSalones">
+      <h2 class="subtitulosVerdes nombresSalones">Campichuelo:</h2>
+      <div class="salonesHijo salonTres">
+        <article class="listaSalones">
+          <ul>
+            <li>Mega pelotero de 3 niveles</li>
+            <li>Plaza blanda</li>
+            <li>Salón de animación con disco</li>
+            <li>Espacio de arte</li>
+            <li>Sector Barbie</li>
+            <li>Cabina de fotos insantáneas</li>
+            <li>Cancha de futbol/basket/multideporte con césped sintético</li>
+            <li>Servicio de emergencia</li>
+            <li>Refrigeración/Calefacción</li>
+            <li>Proyector con pantalla gigante</li>
+            <li>Metegol</li>
+            <li>Habitación GCBA</li>
+            <li>Juegos habilitados bajo normas IRAM</li>
+          </ul>
+        </article>
+        <aside class="imgSalones">
+          <img src="../img/salones/campi/cirilo-campichuelo-4.jpg" alt="Plaza blanda">
+          <img src="../img/salones/campi/cirilo-campichuelo-6.jpg" alt="Mesas niños y adultos, sector torta y baile">
+          <img src="../img/salones/campi/cirilo-salon-maquillaje-disfraces-metegol.jpg"
+            alt="Espacio de belleza y metegol">
+          <img src="../img/salones/campi/cirilo-salon-tobogan-gigante.jpg" alt="Mega-Laberinto">
+        </aside>
+      </div>
+      <div class="maps">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.713648852594!2d-58.437489906614395!3d-34.611401768087795!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca6a3bc07953%3A0xa896429f8809c62c!2sSal%C3%B3n%20de%20Fiestas%20Cirilo!5e0!3m2!1ses!2sar!4v1660070061652!5m2!1ses!2sar"
+          width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
 
   </main>
 
@@ -164,6 +187,10 @@
     <img id="logoIgFooter" src="../img/logo-instagram.png" alt="logo Instagram" />
     <img id="logoFbFooter" src="../img/logo-facebook.png" alt="logo Facebook" />
   </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

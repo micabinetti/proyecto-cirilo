@@ -7,78 +7,102 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Gastronomía</title>
   <link rel="shortcut icon" href="../img/logo-cirilo.png" type="image/x-icon">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- CSS -->
   <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
 <body class="bodyPadreGridGastronomia">
   <header>
-    <img id="logoPrincipal" src="../img/logo-cirilo.png" alt="Logo Cirilo" />
-    <nav class="menuBtn">
-      <ul>
-        <li><a href="../index.html">Nosotros</a></li>
-        <li><a href="salones.html">Salones</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="gastronomia.html">Gastronomía</a></li>
-        <li><a id="btnContacto" href="contacto.html">Contacto</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img id="logoPrincipal" src="../img/logo-cirilo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="salones.html">Salones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="gastronomia.html">Gastronomía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="btnContacto" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
   <!-- <main class="mainGastronomia"> SINO NO ME TOMA EL GRID-->
-    <h1 class="tituloPrincipalSinFlex gastronomia">Gastronomía</h1>
-    <!-- <section class="gastronomiaPadre"> SINO NO ME TOMA EL GRID-->
-      
-      <article class="catering gastronomiaHijo">
-        <img src="../img/catering.png" alt="Logo Catering">
-        <h2 class="subtitulosVerdes">Catering</h2>
-        <div class="textoGastronomia">
-          <p>
-            <strong>Cirilo Lunch:</strong>
-            RICO YFRESCOS.and Miga Triple. Fosforitos JyQ. Medialunas JyQ. Chips
-            Saborizados. Pan Sabor pollo. Sand Peceto. Empanadas. Pizzetas.<strong>Cirilo Merienda:</strong> La unión perfecta
-            entre lo salado y dulce. Sand Miga Triple.
-            Fosforitos JyQ. Medialunas JyQ. Chips Saborizados. Budines. Masas
-            Secas.
-          </p>
-        </div>
-      </article>
+  <h1 class="tituloPrincipalSinFlex gastronomia">Gastronomía</h1>
+  <!-- <section class="gastronomiaPadre"> SINO NO ME TOMA EL GRID-->
 
-      <article class="pizzaParty gastronomiaHijo">
-        <img src="../img/pizza-party.png" alt="Logo Pizza-Party">
-        <h2 class="subtitulosVerdes">Pizza Party</h2>
-        <div class="textoGastronomia">
-          <p>
-            En Cirilo podrás elegir, entre nuestras opciones, la mas conveniente
-            para tu evento. La mas rica variedad de pizzas en nuestro propio horno
-            pizzero.
-          </p>
-        </div>
-      </article>
+  <article class="catering gastronomiaHijo">
+    <img src="../img/catering.png" alt="Logo Catering">
+    <h2 class="subtitulosVerdes">Catering</h2>
+    <div class="textoGastronomia">
+      <p>
+        <strong>Cirilo Lunch:</strong>
+        RICO YFRESCOS.and Miga Triple. Fosforitos JyQ. Medialunas JyQ. Chips
+        Saborizados. Pan Sabor pollo. Sand Peceto. Empanadas. Pizzetas.<strong>Cirilo Merienda:</strong> La unión
+        perfecta
+        entre lo salado y dulce. Sand Miga Triple.
+        Fosforitos JyQ. Medialunas JyQ. Chips Saborizados. Budines. Masas
+        Secas.
+      </p>
+    </div>
+  </article>
 
-      <article class="pernil gastronomiaHijo">
-        <img src="../img/pernil.png" alt="Logo Pernil">
-        <h2 class="subtitulosVerdes">Pernil</h2>
-        <div class="textoGastronomia">
-          <p>
-            De cerdo o de tenera con salsas para disfrutaren Sandwich combinado de
-            diferentes salsas.
-          </p>
-        </div>
-      </article>
+  <article class="pizzaParty gastronomiaHijo">
+    <img src="../img/pizza-party.png" alt="Logo Pizza-Party">
+    <h2 class="subtitulosVerdes">Pizza Party</h2>
+    <div class="textoGastronomia">
+      <p>
+        En Cirilo podrás elegir, entre nuestras opciones, la mas conveniente
+        para tu evento. La mas rica variedad de pizzas en nuestro propio horno
+        pizzero.
+      </p>
+    </div>
+  </article>
 
-      <article class="bebidas gastronomiaHijo">
-        <img src="../img/bebidas.png" alt="Logo Bebidas">
-        <h2 class="subtitulosVerdes">Bebidas</h2>
-        <div class="textoGastronomia">
-          <p>
-            Nosotros nos encargamos hasta de tus bebidas! Barra de licuados para
-            Fiestas Teen, barra de tragos para Fiesta de Adultos. Gaseosas Linea
-            Coca-Cola.
-          </p>
-        </div>
-      </article> 
-    <!-- </section> -->
+  <article class="pernil gastronomiaHijo">
+    <img src="../img/pernil.png" alt="Logo Pernil">
+    <h2 class="subtitulosVerdes">Pernil</h2>
+    <div class="textoGastronomia">
+      <p>
+        De cerdo o de tenera con salsas para disfrutaren Sandwich combinado de
+        diferentes salsas.
+      </p>
+    </div>
+  </article>
+
+  <article class="bebidas gastronomiaHijo">
+    <img src="../img/bebidas.png" alt="Logo Bebidas">
+    <h2 class="subtitulosVerdes">Bebidas</h2>
+    <div class="textoGastronomia">
+      <p>
+        Nosotros nos encargamos hasta de tus bebidas! Barra de licuados para
+        Fiestas Teen, barra de tragos para Fiesta de Adultos. Gaseosas Linea
+        Coca-Cola.
+      </p>
+    </div>
+  </article>
+  <!-- </section> -->
   <!-- </main> -->
-  
+
   <footer>
     <img id="logoFooter" src="../img/logo-cirilo.png" alt="Logo Cirilo" />
     <div id="infoWpp">
@@ -86,17 +110,17 @@
       <p>
         <strong>Salón 1:</strong> 0123456789
       </p>
-    
+
       <img class="logoWppFooter" src="../img/logo-whatsapp.png" alt="logo Whatsapp">
       <p>
         <strong>Salón 2:</strong> 0123456788
       </p>
-    
+
       <img class="logoWppFooter" src="../img/logo-whatsapp.png" alt="logo Whatsapp">
       <p>
         <strong>Salón 3:</strong> 0123456787
       </p>
-    
+
       <img class="logoWppFooter" src="../img/logo-whatsapp.png" alt="logo Whatsapp">
       <p>
         <strong>Salón 4:</strong> 0123456786
@@ -105,6 +129,10 @@
     <img id="logoIgFooter" src="../img/logo-instagram.png" alt="logo Instagram" />
     <img id="logoFbFooter" src="../img/logo-facebook.png" alt="logo Facebook" />
   </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>

@@ -7,67 +7,90 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Servicios</title>
   <link rel="shortcut icon" href="../img/logo-cirilo.png" type="image/x-icon">
+  <!-- BOOTSTRAP -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+  <!-- CSS -->
   <link rel="stylesheet" href="../css/estilo.css">
 </head>
 
 <body class="bodyPadreGridServicios">
   <header>
-    <img id="logoPrincipal" src="../img/logo-cirilo.png" alt="Logo Cirilo" />
-    <nav class="menuBtn">
-      <ul>
-        <li><a href="../index.html">Nosotros</a></li>
-        <li><a href="salones.html">Salones</a></li>
-        <li><a href="servicios.html">Servicios</a></li>
-        <li><a href="gastronomia.html">Gastronomía</a></li>
-        <li><a id="btnContacto" href="contacto.html">Contacto</a></li>
-      </ul>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <img id="logoPrincipal" src="../img/logo-cirilo.png" alt="Logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="../index.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="salones.html">Salones</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="servicios.html">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="gastronomia.html">Gastronomía</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="btnContacto" href="contacto.html">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </nav>
   </header>
 
   <!-- <main class="serviciosPadre"> SINO NO ME TOMA EL GRID-->
-      <h1 class="titulosPrincipales tituloServicios">Servicios</h1>
-      <div class="serviciosHijo eventosInfantiles">
-        <h2 class="subtitulosVerdes">Eventos infantiles</h2>
-        <p>
-          Cada evento infantil es único e irrepetible. Sabemos como hacer que el
-          homenajeado y sus invitados puedan disfrutar de una fiesta inolvidable.
-          Queremos que vuelvas todos los años. Nos gusta que nos recomiendes.
-          Agradecemos que sigan festejando y confiando en nosotros. Estos son los
-          servicios que incluimos: Animación dinámica, fiestas temáticas (consulta
-          tu preferida), visitas de personajes; shows musicales, talleres, futbol,
-          spa de nenas. Estas son las instalaciones con las que contamos:
-          Megalaberinto con pelotero y tirolesa, spa nenas, mini disco, plaza
-          blanda, escenario, piñata, cancha de futbol.
-        </p>
-        <img src="../img/foto-provisoria1.png" alt="Niños cantando 'Feliz Cumpleaños'">
-      </div>
+  <h1 class="titulosPrincipales tituloServicios">Servicios</h1>
+  <div class="serviciosHijo eventosInfantiles">
+    <h2 class="subtitulosVerdes">Eventos infantiles</h2>
+    <p>
+      Cada evento infantil es único e irrepetible. Sabemos como hacer que el
+      homenajeado y sus invitados puedan disfrutar de una fiesta inolvidable.
+      Queremos que vuelvas todos los años. Nos gusta que nos recomiendes.
+      Agradecemos que sigan festejando y confiando en nosotros. Estos son los
+      servicios que incluimos: Animación dinámica, fiestas temáticas (consulta
+      tu preferida), visitas de personajes; shows musicales, talleres, futbol,
+      spa de nenas. Estas son las instalaciones con las que contamos:
+      Megalaberinto con pelotero y tirolesa, spa nenas, mini disco, plaza
+      blanda, escenario, piñata, cancha de futbol.
+    </p>
+    <img src="../img/foto-provisoria1.png" alt="Niños cantando 'Feliz Cumpleaños'">
+  </div>
 
-      <div class="serviciosHijo eventosJovenes">
-        <h2 class="subtitulosVerdes">Eventos para jóvenes</h2>
-        <p>
-          Las necesidades de las nuevas generaciones nos marcan diferentes
-          estilos. Para nuestros pre y adolescentes, Cirilo ofrece una alternativa
-          moderna y diferente, transformando nuestro espacio en una autentica
-          Disco Vip. Humo, burbujas, proyector, pantalla gigante, variedad de
-          sonido y luces para tener una fiesta única!
-        </p>
-        <img src="../img/eventos-juveniles.jpg" alt="">
-      </div>
+  <div class="serviciosHijo eventosJovenes">
+    <h2 class="subtitulosVerdes">Eventos para jóvenes</h2>
+    <p>
+      Las necesidades de las nuevas generaciones nos marcan diferentes
+      estilos. Para nuestros pre y adolescentes, Cirilo ofrece una alternativa
+      moderna y diferente, transformando nuestro espacio en una autentica
+      Disco Vip. Humo, burbujas, proyector, pantalla gigante, variedad de
+      sonido y luces para tener una fiesta única!
+    </p>
+    <img src="../img/eventos-juveniles.jpg" alt="">
+  </div>
 
-      <div class="serviciosHijo eventosAdultos">
-        <h2 class="subtitulosVerdes">Eventos para adultos</h2>
-        <p>
-          Nuestro exclusivo salón propone un evento para adultos distinto. Tenemos
-          las alternativas para solucionarte tu festejo para que la pases
-          increíble sin preocupaciones. Olvídate de la comida, de las bebidas y de
-          la animación. Nosotros sabemos como ocuparnos para que vos y tus
-          invitados sean los que disfruten. Nos encargamos de que solo vengas a
-          festejar.A los chicos los pueden traer que tenemos especialistas e
-          infraestructura para que se diviertan mientras los “grandes” disfrutan
-          sin preocuparse.
-        </p>
-        <img src="../img/eventos-adultos.jpeg" alt="Disfruntando Fondue de Chocolate">
-      </div>
+  <div class="serviciosHijo eventosAdultos">
+    <h2 class="subtitulosVerdes">Eventos para adultos</h2>
+    <p>
+      Nuestro exclusivo salón propone un evento para adultos distinto. Tenemos
+      las alternativas para solucionarte tu festejo para que la pases
+      increíble sin preocupaciones. Olvídate de la comida, de las bebidas y de
+      la animación. Nosotros sabemos como ocuparnos para que vos y tus
+      invitados sean los que disfruten. Nos encargamos de que solo vengas a
+      festejar.A los chicos los pueden traer que tenemos especialistas e
+      infraestructura para que se diviertan mientras los “grandes” disfrutan
+      sin preocuparse.
+    </p>
+    <img src="../img/eventos-adultos.jpeg" alt="Disfruntando Fondue de Chocolate">
+  </div>
   <!-- </main> -->
 
   <footer>
@@ -77,17 +100,17 @@
       <p>
         <strong>Salón 1:</strong> 0123456789
       </p>
-    
+
       <img class="logoWppFooter" src="../img/logo-whatsapp.png" alt="logo Whatsapp">
       <p>
         <strong>Salón 2:</strong> 0123456788
       </p>
-    
+
       <img class="logoWppFooter" src="../img/logo-whatsapp.png" alt="logo Whatsapp">
       <p>
         <strong>Salón 3:</strong> 0123456787
       </p>
-    
+
       <img class="logoWppFooter" src="../img/logo-whatsapp.png" alt="logo Whatsapp">
       <p>
         <strong>Salón 4:</strong> 0123456786
@@ -96,6 +119,10 @@
     <img id="logoIgFooter" src="../img/logo-instagram.png" alt="logo Instagram" />
     <img id="logoFbFooter" src="../img/logo-facebook.png" alt="logo Facebook" />
   </footer>
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
 </body>
 
 </html>
