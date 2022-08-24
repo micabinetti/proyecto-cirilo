@@ -573,15 +573,14 @@ footer {
         /*Nosotros*/
         .nosotros {
             display: inline-block;
-            margin: auto;
-            margin-left: 3%;
-            margin-right: 3%;
-    
+            margin: auto;    
         }
     
         .titulosPrincipales {
             font-size: 3.5rem;
             color: #29925c;
+            margin-top: 70%;
+            margin-bottom: 70%;
         }
     
         #infoNosotros {
@@ -685,8 +684,8 @@ footer {
 
         .tituloServicios {
             text-align: center;
-            margin-top: 2%;
-            margin-bottom: 2%;
+            margin-top: 8%;
+            margin-bottom: 4%;
         }
     
         /* .serviciosPadre {
@@ -774,6 +773,7 @@ footer {
             color: #29925c;
             text-align: center;
             margin: 3%;
+            margin-top: 7%;
         }
     
         /* .gastronomiaPadre {
@@ -884,6 +884,11 @@ footer {
     
         }
     
+        .tituloSalones {
+            margin-top: 7%;
+            margin-bottom: 5%;
+        }
+
         .nombresSalones {
             margin-top: 2%;
             margin-bottom: 2%;
