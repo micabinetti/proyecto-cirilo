@@ -9,6 +9,9 @@ html {
     font-size: 62.5%;
 }
 
+footer {
+    margin-bottom: 0.5%;
+}
 
 /*ESTILOS DE GOOGLE*/
 @import url('https://fonts.googleapis.com/css2?family=Acme&family=Roboto:wght@500&display=swap');
@@ -43,7 +46,7 @@ html {
         grid-area: footer;
     }
 
-    .carrusel {
+    .carousel {
         grid-area: carrusel;
     }
 
@@ -87,22 +90,14 @@ html {
 
     /*Body*/
     /* "Carrusel" */
-    .carruselPadre {
-        width: 100%;
-        height: 90.1vh;
+    .carousel {
+        width: auto;
         margin-bottom: 1%;
     }
 
-    .carruselHijo {
-        width: 100%;
-        height: 100%;
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .imgCarrusel {
-        width: 33.3%;
-
+    .imgCarousel {
+        height: 1056px;
+        object-fit: cover;
     }
 
     /*Nosotros*/
@@ -157,6 +152,7 @@ html {
         display: flex;
         flex-direction: row;
         justify-content: center;
+        align-items: baseline;
     }
 
     #infoWpp p {
@@ -165,8 +161,8 @@ html {
     }
 
     .logoWppFooter {
-        width: 1.8rem;
-        height: 1.8rem;
+        width: 2rem;
+        height: 2rem;
 
     }
 
@@ -380,6 +376,7 @@ html {
         width: 50%;
         padding: 1rem;
         margin: 1% auto;
+        font-size: 1.8rem;
     }
 
     .boton {
@@ -450,21 +447,19 @@ html {
     }
 
     .imgSalones {
-        width: auto;
-        padding-left: 6%;
-    }
-
-    .imgSalones img {
-        width: 30rem;
-        height: 25rem;
+        width: 70%;
+        object-fit: cover;
     }
 
     .maps {
-        /* width: 95%; */
-        /* border: 1px black solid; */
         text-align: center;
+        margin-bottom: 1%;
     }
-   
+
+    .maps iframe {
+        width: 90%;
+        
+    }
 
     .subtitulosVerdes {
         font-size: 3.4rem;
@@ -506,7 +501,7 @@ html {
             grid-area: footer;
         }
     
-        .carrusel {
+        .carousel {
             grid-area: carrusel;
         }
     
@@ -534,62 +529,45 @@ html {
             display: inline-block;
         }
 
-        .menuBtn {
-            display: none;
-        }
-    
-        /* .menuBtn {
-            position: relative;
-            display: inline-block;
-            width: 89%;
-            bottom: 2.5rem;
-        }
-    
-        .menuBtn ul li {
-            display: inline-block;
-            padding: 1.5rem;
-            font-size: 1.8rem;
+
+        .collapse {
+            font-size: 2.5rem;
             font-family: "Roboto", sans-serif;
+            width: 100%;
             letter-spacing: 0.2rem;
-        }
-    
-        .menuBtn ul a {
-            text-decoration: none;
             color: #383838;
             font-weight: bold;
+            z-index: 10;
+    
+        }
+
+        .navbar-expand-lg .navbar-collapse {
+            justify-content: center;
+        }
+
+        .botonCangreBurger {
+            height: 5rem;
+            width: 5rem;
+        }
+        
+        .fuentesNav {
+            font-size: 2rem;
         }
     
-        #btnContacto {
-            display: inline-block;
-            border: 0.35rem solid #338f5f;
-            border-radius: 20px;
-            padding: 7px;
-            font-weight: bold;
-        } 
         
-        #btnContacto:hover {
-            background-color: #338f5f;
-            color:aliceblue ;
-        }*/
     
         /*Body*/
         /* "Carrusel" */
-        .carruselPadre {
-            width: 100%;
-            height: 100%;
+        .carousel {
+            width: auto;
+            margin-top: 1%;
             margin-bottom: 1%;
+    
         }
     
-        .carruselHijo {
-            width: 100%;
-            height: 70vh;
-            display: flex;
-            flex-wrap: wrap;
-        }
-    
-        .imgCarrusel {
-            width: 33.3%;
-    
+        .imgCarousel {
+            height: 600px;
+            object-fit: cover;
         }
     
         /*Nosotros*/
@@ -640,11 +618,13 @@ html {
         }
     
         #infoWpp {
-            
             margin-bottom: 0.5%;
             display: flex;
-            flex-direction: row;
             justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
         }
     
         #infoWpp p {
@@ -871,6 +851,7 @@ html {
             width: 50%;
             padding: 1rem;
             margin: 1% auto;
+            font-size: 1.8rem;
         }
     
         .boton {
@@ -924,8 +905,6 @@ html {
             height: auto;
             width: 95%;
             
-            margin-left: 0.31%;
-            margin-right: 0.31%;
             padding-top: 2%;
             padding-bottom: 2%;
     
@@ -939,20 +918,17 @@ html {
         .listaSalones {
             width: 50%;
         }
-    
+        
         .imgSalones {
-            width: auto;
-            padding-left: 6%;
-        }
-    
-        .imgSalones img {
             width: 100%;
-            height: 40rem;
+            margin-left: 5%;
+            text-align: center;
+            object-fit: cover;
         }
     
-        .maps {
+        .maps iframe {
+            width: 100%;
             text-align: center;
-            
         }
        
     

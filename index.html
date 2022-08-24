@@ -22,24 +22,24 @@
         <a class="navbar-brand" href="index.html">
           <img id="logoPrincipal" src="./img/logo-cirilo.png" alt="Logo">
         </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler botonCangreBurger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="collapse navbar-collapse collapseIndex" id="navbarNav">
           <ul class="navbar-nav">
-            <li class="nav-item">
+            <li class="nav-item fuentesNav">
               <a class="nav-link active" aria-current="page" href="index.html">Nosotros</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item fuentesNav">
               <a class="nav-link" href="pages/salones.html">Salones</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item fuentesNav">
               <a class="nav-link" href="pages/servicios.html">Servicios</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item fuentesNav">
               <a class="nav-link" href="pages/gastronomia.html">Gastronomía</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item fuentesNav">
               <a class="nav-link" id="btnContacto" href="pages/contacto.html">Contacto</a>
             </li>
           </ul>
@@ -48,13 +48,36 @@
     </nav>
   </header>
 
-  <section class="carruselPadre carrusel">
-    <div class="carruselHijo">
-      <img class="imgCarrusel" src="./img/foto-provisoria1.png" alt="foto" />
-      <img class="imgCarrusel" src="./img/foto-provisoria2.png" alt="foto" />
-      <img class="imgCarrusel" src="./img/foto-provisoria3.png" alt="foto" />
+  <section class="carousel">
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="./img/carousel/piñata.jpg" class="d-block w-100 imgCarousel" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/carousel/tren.jpg" class="d-block w-100 imgCarousel" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="./img/carousel/baile.jpeg" class="d-block w-100 imgCarousel" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
   </section>
+
+  
 
 
   <section class="nosotros">
@@ -76,26 +99,22 @@
     <div id="infoWpp">
       <img class="logoWppFooter" src="./img/logo-whatsapp.png" alt="logo Whatsapp">
       <p>
-        <strong>Salón 1:</strong> 0123456789
+        <strong>Colegiales:</strong> 0123456789
       </p>
 
       <img class="logoWppFooter" src="./img/logo-whatsapp.png" alt="logo Whatsapp">
       <p>
-        <strong>Salón 2:</strong> 0123456788
+        <strong>Boedo:</strong> 0123456788
       </p>
 
       <img class="logoWppFooter" src="./img/logo-whatsapp.png" alt="logo Whatsapp">
       <p>
-        <strong>Salón 3:</strong> 0123456787
-      </p>
-
-      <img class="logoWppFooter" src="./img/logo-whatsapp.png" alt="logo Whatsapp">
-      <p>
-        <strong>Salón 4:</strong> 0123456786
+        <strong>Campichuelo:</strong> 0123456787
       </p>
     </div>
-    <img id="logoIgFooter" src="./img/logo-instagram.png" alt="logo Instagram" />
-    <img id="logoFbFooter" src="./img/logo-facebook.png" alt="logo Facebook" />
+
+    <a href="https://www.instagram.com/cirilofiestas/"><img id="logoIgFooter" src="./img/logo-instagram.png"  alt="logo Instagram" /></a>
+    <a href="https://www.facebook.com/CiriloSalonDeFiestas"><img id="logoFbFooter" src="./img/logo-facebook.png" alt="logo Facebook" /></a>
   </footer>
 
   <!-- JavaScript Bundle with Popper -->
