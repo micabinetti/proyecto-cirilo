@@ -104,6 +104,28 @@
       width: 2rem;
       height: 2rem; } }
 
+@media (min-width: 1024px) {
+  .titulosPrincipales, .tituloServicios, .tituloPrincipalSinFlex {
+    color: #29925c;
+    font-size: 4.5rem; } }
+
+@media (max-width: 767px) {
+  .titulosPrincipales, .tituloServicios, .tituloPrincipalSinFlex {
+    color: #29925c;
+    font-size: 3.5rem; } }
+
+.primerEstilo, .segundoEstilo {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: right; }
+
+.segundoEstilo {
+  font-size: 35px; }
+
+.subtitulosVerdes {
+  color: #23b15a;
+  font-size: 3.4rem; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -148,9 +170,6 @@ footer {
     margin: auto;
     margin-left: 3%;
     margin-right: 3%; }
-    .nosotros .titulosPrincipales {
-      font-size: 4.5rem;
-      color: #29925c; }
     .nosotros #infoNosotros {
       margin-top: 2%;
       font-size: 2.3rem;
@@ -174,8 +193,6 @@ footer {
   p {
     font-size: 2.3rem; }
   .tituloServicios {
-    font-size: 4.5rem;
-    color: #29925c;
     text-align: center;
     margin-top: 2%; }
   .serviciosHijo {
@@ -218,8 +235,6 @@ footer {
   article ul li {
     font-size: 2.1rem; }
   .tituloPrincipalSinFlex {
-    font-size: 4.5rem;
-    color: #29925c;
     text-align: center;
     margin: 3%; }
   .gastronomiaPadre {
@@ -319,10 +334,7 @@ footer {
       text-align: center;
       margin-bottom: 1%; }
       .bordeSalones .maps iframe {
-        width: 90%; }
-  .subtitulosVerdes {
-    font-size: 3.4rem;
-    color: #23b15a; } }
+        width: 90%; } }
 
 @media (max-width: 767px) {
   .bodyPadreGrid {
@@ -349,8 +361,6 @@ footer {
     display: inline-block;
     margin: auto; }
     .nosotros .titulosPrincipales {
-      color: #29925c;
-      font-size: 3.5rem;
       margin-top: 2%;
       margin-bottom: 2%; }
     .nosotros #infoNosotros {
@@ -380,8 +390,6 @@ footer {
   p {
     font-size: 1.7rem; }
   .tituloServicios {
-    font-size: 3.5rem;
-    color: #29925c;
     text-align: center;
     margin: 3%;
     margin-top: 7%; }
@@ -424,8 +432,6 @@ footer {
   article ul li {
     font-size: 2.1rem; }
   .tituloPrincipalSinFlex {
-    font-size: 3.5rem;
-    color: #29925c;
     text-align: center;
     margin: 3%;
     margin-top: 7%; }
@@ -522,7 +528,4 @@ footer {
       object-fit: cover; }
     .bordeSalones .maps iframe {
       width: 100%;
-      text-align: center; }
-  .subtitulosVerdes {
-    font-size: 3.4rem;
-    color: #23b15a; } }
+      text-align: center; } }

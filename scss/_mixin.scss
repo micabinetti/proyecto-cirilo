@@ -1,0 +1,12 @@
+@import "variables";
+
+//MIXIN
+
+@mixin subtitulos {
+    color: $color-secundario;
+    font-size: 3.4rem;
+}
+
+.subtitulosVerdes {
+    @include subtitulos;
+}

@@ -1,0 +1,27 @@
+@import "variables";
+
+//MAP - GET
+
+//VERSION DE ESCRITORIO
+@media (min-width:1024px) {
+
+    $estilo: (color:$color-principal, tamFuente: 4.5rem);
+
+    .titulosPrincipales, .tituloServicios, .tituloPrincipalSinFlex {
+        color: map-get($estilo, color );
+        font-size: map-get($estilo, tamFuente );
+    }
+
+}
+
+//VERSION DE CELULAR
+@media (max-width:767px) {
+
+    $estilo: (color:$color-principal, tamFuente: 3.5rem);
+
+    .titulosPrincipales, .tituloServicios, .tituloPrincipalSinFlex {
+        color: map-get($estilo, color );
+        font-size: map-get($estilo, tamFuente );
+    }
+
+}

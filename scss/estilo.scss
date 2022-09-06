@@ -1,6 +1,9 @@
 @import "variables";
 @import "header";
 @import "footer";
+@import "maps";
+@import "extend";
+@import "mixin";
 
 * {
     margin: 0;
@@ -82,10 +85,7 @@ footer {
         margin-left: 3%;
         margin-right: 3%;
 
-        .titulosPrincipales {
-            font-size: 4.5rem;
-            color: $color-principal;
-        }
+        
 
         #infoNosotros {
             margin-top: 2%;
@@ -138,8 +138,6 @@ footer {
     }
 
     .tituloServicios {
-        font-size: 4.5rem;
-        color:$color-principal;
         text-align: center;
         margin-top: 2%;
     }
@@ -214,8 +212,7 @@ footer {
     }
 
     .tituloPrincipalSinFlex {
-        font-size: 4.5rem;
-        color:$color-principal;
+      
         text-align: center;
         margin: 3%;
     }
@@ -374,11 +371,6 @@ footer {
             }
         }
     }
-
-    .subtitulosVerdes {
-        font-size: 3.4rem;
-        color:$color-secundario;
-    }
 }
 
 //VERSION DE CELULAR
@@ -434,8 +426,6 @@ footer {
         margin: auto;
 
         .titulosPrincipales {
-            color:$color-principal;
-            font-size: 3.5rem;
             margin-top: 2%;
             margin-bottom: 2%;
         }
@@ -493,8 +483,6 @@ footer {
     }
 
     .tituloServicios {
-        font-size: 3.5rem;
-        color:$color-principal;
         text-align: center;
         margin: 3%;
         margin-top: 7%;
@@ -566,8 +554,6 @@ footer {
     }
 
     .tituloPrincipalSinFlex {
-        font-size: 3.5rem;
-        color: $color-principal;
         text-align: center;
         margin: 3%;
         margin-top: 7%;
@@ -715,10 +701,5 @@ footer {
                 text-align: center;
             }
         }
-    }
-
-    .subtitulosVerdes {
-        font-size: 3.4rem;
-        color:$color-secundario;
     }
 }
