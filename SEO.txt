@@ -1,0 +1,7 @@
+Para el SEO agregué: 
+- keywords 
+- meta descriptions
+- titles
+- encabezados para darle estructura al contenido
+- optimice las imagenes para que pesen menos
+- los elementos de imagen tienen atributos alt

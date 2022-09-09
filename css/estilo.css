@@ -28,6 +28,7 @@
     text-align: center; }
     header #logoPrincipal {
       width: 8rem;
+      height: 8rem;
       display: inline-block; }
   .collapse {
     font-size: 2.5rem;
@@ -352,7 +353,7 @@ footer {
     grid-area: imgStaff; }
   .carousel {
     width: auto;
-    margin-top: 1%;
+    margin-top: 1.5rem;
     margin-bottom: 1%; }
     .carousel .imgCarousel {
       height: 600px;
