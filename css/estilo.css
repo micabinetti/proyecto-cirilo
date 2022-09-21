@@ -36,8 +36,7 @@
     width: 100%;
     letter-spacing: 0.2rem;
     color: #383838;
-    font-weight: bold;
-    z-index: 10; }
+    font-weight: bold; }
   .navbar-expand-lg .navbar-collapse {
     justify-content: center; }
     .navbar-expand-lg .navbar-collapse .botonCangreBurger {
@@ -70,6 +69,8 @@
       footer #infoWpp strong {
         margin-left: 1%;
         margin-right: 1%; }
+      footer #infoWpp p {
+        font-size: 1.7rem; }
     footer #logoIgFooter,
     footer #logoFbFooter {
       width: 3rem;
@@ -100,6 +101,8 @@
       footer #infoWpp .logoWppFooter {
         width: 1.2rem;
         height: 1.2rem; }
+      footer #infoWpp p {
+        font-size: 1.2rem; }
     footer #logoIgFooter,
     footer #logoFbFooter {
       width: 2rem;
@@ -164,7 +167,7 @@ footer {
     width: auto;
     margin-bottom: 1%; }
   .imgCarousel {
-    height: 1056px;
+    height: 927px;
     object-fit: cover; }
   .nosotros {
     display: inline-block;
@@ -242,7 +245,9 @@ footer {
     width: 98vw;
     height: auto;
     border-radius: 4px;
-    display: flex; }
+    display: flex;
+    margin: auto;
+    padding-left: 1%; }
     .gastronomiaPadre .gastronomiaHijo {
       background-color: rgba(1, 1, 1, 0.03);
       height: auto;
@@ -360,7 +365,9 @@ footer {
       object-fit: cover; }
   .nosotros {
     display: inline-block;
-    margin: auto; }
+    margin: auto;
+    margin-left: 3%;
+    margin-right: 3%; }
     .nosotros .titulosPrincipales {
       margin-top: 2%;
       margin-bottom: 2%; }
@@ -392,8 +399,8 @@ footer {
     font-size: 1.7rem; }
   .tituloServicios {
     text-align: center;
-    margin: 3%;
-    margin-top: 7%; }
+    margin-top: 10%;
+    margin-bottom: 6%; }
   .serviciosHijo {
     background-color: rgba(1, 1, 1, 0.03);
     height: auto;
@@ -434,8 +441,8 @@ footer {
     font-size: 2.1rem; }
   .tituloPrincipalSinFlex {
     text-align: center;
-    margin: 3%;
-    margin-top: 7%; }
+    margin-top: 10%;
+    margin-bottom: 6%; }
   .gastronomiaHijo {
     background-color: rgba(1, 1, 1, 0.03);
     height: auto;
@@ -462,7 +469,8 @@ footer {
     margin: 5rem;
     padding: 3rem;
     border: solid 1px black;
-    border-radius: 4px; }
+    border-radius: 4px;
+    margin-top: 0; }
     .formulario .contenedor h2 {
       font-size: 3rem;
       margin-top: 1.5rem;
@@ -472,10 +480,10 @@ footer {
       margin-bottom: 3.5rem; }
     .formulario .campo {
       display: block;
-      width: 50%;
+      width: 70%;
       padding: 1rem;
       margin: 1% auto;
-      font-size: 1.8rem; }
+      font-size: 1.5rem; }
     .formulario .boton {
       color: black;
       background-color: #4ec97d;
@@ -493,8 +501,8 @@ footer {
     display: grid;
     grid-template-areas: "header" "main" "footer"; }
   .tituloSalones {
-    margin-top: 7%;
-    margin-bottom: 5%; }
+    margin-top: 10%;
+    margin-bottom: 6%; }
   .bordeSalones {
     border: 1px black solid;
     width: 90vw;

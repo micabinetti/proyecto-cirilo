@@ -37,6 +37,7 @@
         background:$fondo-gris;
         position: relative;
         text-align: center;
+    
 
         #logoPrincipal {
             width: 8rem;
@@ -52,11 +53,14 @@
         letter-spacing: 0.2rem;
         color: #383838;
         font-weight: bold;
-        z-index: 10;
+        
+        
+        //z-index: 10;
     }
 
     .navbar-expand-lg .navbar-collapse {
         justify-content: center;
+        
 
         .botonCangreBurger {
             height: 5rem;
@@ -67,4 +71,6 @@
             font-size: 2rem;
         }
     }
+
+    
 }

@@ -74,7 +74,7 @@ footer {
     }
 
     .imgCarousel {
-        height: 1056px;
+        height: 927px;
         object-fit: cover;
     }
 
@@ -222,6 +222,8 @@ footer {
         height: auto;
         border-radius: 4px;
         display: flex;
+        margin: auto;
+        padding-left: 1%;
 
         .gastronomiaHijo {
             background-color:$fondo-gris;
@@ -424,6 +426,8 @@ footer {
     .nosotros {
         display: inline-block;
         margin: auto;
+        margin-left: 3%;
+        margin-right: 3%;
 
         .titulosPrincipales {
             margin-top: 2%;
@@ -484,8 +488,8 @@ footer {
 
     .tituloServicios {
         text-align: center;
-        margin: 3%;
-        margin-top: 7%;
+        margin-top: 10%;
+        margin-bottom: 6%;
     }
 
     .serviciosHijo {
@@ -555,8 +559,8 @@ footer {
 
     .tituloPrincipalSinFlex {
         text-align: center;
-        margin: 3%;
-        margin-top: 7%;
+        margin-top: 10%;
+        margin-bottom: 6%;
     }
 
     .gastronomiaHijo {
@@ -595,6 +599,7 @@ footer {
         padding: 3rem;
         border: solid 1px black;
         border-radius: 4px;
+        margin-top: 0;
 
         .contenedor {
             h2 {
@@ -611,10 +616,10 @@ footer {
 
         .campo {
             display: block;
-            width: 50%;
+            width: 70%;
             padding: 1rem;
             margin: 1% auto;
-            font-size: 1.8rem;
+            font-size: 1.5rem;
         }
 
         .boton {
@@ -646,8 +651,8 @@ footer {
     }
 
     .tituloSalones {
-        margin-top: 7%;
-        margin-bottom: 5%;
+        margin-top: 10%;
+        margin-bottom: 6%;
     }
 
 
